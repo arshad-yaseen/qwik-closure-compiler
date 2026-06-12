@@ -1,20 +1,20 @@
 {
   "name": "qwik-closure-compiler",
+  "private": true,
+  "type": "module",
   "module": "src/index.ts",
   "scripts": {
-    "demo": "bun run test.ts",
+    "demo": "bun run playground.ts",
     "test": "bun test",
     "check": "tsc --noEmit && bun test"
   },
-  "type": "module",
-  "private": true,
+  "dependencies": {
+    "yuku-analyzer": "^0.5.36"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
-  },
-  "dependencies": {
-    "yuku-analyzer": "^0.5.36"
   }
 }

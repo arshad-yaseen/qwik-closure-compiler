@@ -10,6 +10,6 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "yuku-analyzer": "^0.5.35"
+    "yuku-analyzer": "^0.5.36"
   }
 }

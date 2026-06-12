@@ -1,6 +1,11 @@
 {
   "name": "qwik-closure-compiler",
-  "module": "index.ts",
+  "module": "src/index.ts",
+  "scripts": {
+    "demo": "bun run test.ts",
+    "test": "bun test",
+    "check": "tsc --noEmit && bun test"
+  },
   "type": "module",
   "private": true,
   "devDependencies": {

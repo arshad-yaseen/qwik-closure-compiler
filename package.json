@@ -4,7 +4,7 @@
   "type": "module",
   "module": "src/index.ts",
   "scripts": {
-    "demo": "bun run playground.ts",
+    "demo": "bun run demo.ts",
     "test": "bun test",
     "check": "tsc --noEmit && bun test"
   },
